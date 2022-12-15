@@ -16,5 +16,3 @@ userForm.registerFormCallback = (data) => ApiConnector.register(data,
         userForm.setRegisterErrorMessage(serverResponseRegister.error);
     };
 });
-
-// {success: true, userId: 6}
